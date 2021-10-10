@@ -1,0 +1,16 @@
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\bin\Debug\net5.0\Employeewage.exe
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\bin\Debug\net5.0\Employeewage.deps.json
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\bin\Debug\net5.0\Employeewage.runtimeconfig.json
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\bin\Debug\net5.0\Employeewage.runtimeconfig.dev.json
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\bin\Debug\net5.0\Employeewage.dll
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\bin\Debug\net5.0\ref\Employeewage.dll
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\bin\Debug\net5.0\Employeewage.pdb
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\obj\Debug\net5.0\Employeewage.csproj.AssemblyReference.cache
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\obj\Debug\net5.0\Employeewage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\obj\Debug\net5.0\Employeewage.AssemblyInfoInputs.cache
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\obj\Debug\net5.0\Employeewage.AssemblyInfo.cs
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\obj\Debug\net5.0\Employeewage.csproj.CoreCompileInputs.cache
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\obj\Debug\net5.0\Employeewage.dll
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\obj\Debug\net5.0\ref\Employeewage.dll
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\obj\Debug\net5.0\Employeewage.pdb
+C:\Users\ELCOT\source\repos\Employeewage\Employeewage\obj\Debug\net5.0\Employeewage.genruntimeconfig.cache
