@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EmployeewageUC5
+namespace EmployeewageUC6
 {
     class EmployeewageCompute
     {
@@ -9,18 +9,21 @@ namespace EmployeewageUC5
         public const int IS_PART_TIME = 2;
         public const int EMP_RATE_PER_HR = 20;
         public const int NO_OF_WORKING_DAYS = 20;
+        public const int MAX_WORKING_DAYS = 20;
+        public const int MAX_WORKING_HRS = 100;
         static void Main(string[] args)
         {
             //Local varibles
             int empHrs = 0;
+            int empWage = 0;
             int totalEmpwage = 0;
-            int day;
+            int day = 1;
             int totalEmphrs = 0;
 
             //Generating random input using predefined Random class
             Random random = new Random();
             //for loop for calculating employee working hrs for a month
-            for (day=1; day <= NO_OF_WORKING_DAYS; day++)
+            while (day <= MAX_WORKING_DAYS && totalEmphrs <= MAX_WORKING_HRS)
             { 
                 //using Next() method to generating random input 
                 int empInput = random.Next(0, 3);
@@ -40,6 +43,7 @@ namespace EmployeewageUC5
                 }
                 //Formula for calulating total employee working hrs for a month
                 totalEmphrs += empHrs;
+                day++;
             }
             //Calculating total employee wage for a month
             totalEmpwage = EMP_RATE_PER_HR * totalEmphrs;
