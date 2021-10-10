@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EmployeewageUC3
+namespace EmployeewageUC4
 {
     class EmployeewageCompute
     {
@@ -18,23 +18,20 @@ namespace EmployeewageUC3
             Random random = new Random();
             int empInput = random.Next(0, 3);
 
-            //if-else construct
-            if (empInput == 1)
+            //switch construct
+            switch (empInput)
             {
-                Console.WriteLine("Employee is present full time");
-                empHrs = 8;
+                case IS_FULL_TIME:
+                    empHrs = 8;
+                    break;
+                case IS_PART_TIME:
+                    empHrs = 4;
+                    break;
+                default:
+                    empHrs = 0;
+                    break;
             }
-            else if (empInput == 2)
-            {
-                Console.WriteLine("Employee is present part time");
-                empHrs = 4;
-            }
-            else
-            {
-                Console.WriteLine("Employee is absent");
-                empHrs = 0;
-            }
-            //Calculating daily employee wage
+            //Calculating employee wage
             empWage = EMP_RATE_PER_HR * empHrs;
             Console.WriteLine("Employee wage:{0}", empWage);
             Console.ReadLine();
