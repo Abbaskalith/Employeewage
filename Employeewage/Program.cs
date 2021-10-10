@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EmployeewageUC1
+namespace EmployeewageUC3
 {
     class EmployeewageCompute
     {
