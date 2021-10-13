@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EmployeewageUC6
+namespace EmployeewageUC7
 {
     class EmployeewageCompute
     {
@@ -11,7 +11,26 @@ namespace EmployeewageUC6
         public const int NO_OF_WORKING_DAYS = 20;
         public const int MAX_WORKING_DAYS = 20;
         public const int MAX_WORKING_HRS = 100;
-        static void Main(string[] args)
+
+        //GetEmployeeHrs class method to generate empHrs 
+        public static int GetEmployeeHrs(int empInput)
+        {
+            int empHrs = 0;
+            //switch construct
+            switch (empInput)
+            {
+                case IS_FULL_TIME:
+                    return empHrs = 8;
+                    
+                case IS_PART_TIME:
+                   return empHrs = 4;
+                   
+                default:
+                    return empHrs = 0;
+                    
+            }
+        }
+        public static void Main(string[] args)
         {
             //Local varibles
             int empHrs = 0;
@@ -27,20 +46,8 @@ namespace EmployeewageUC6
             { 
                 //using Next() method to generating random input 
                 int empInput = random.Next(0, 3);
-
-                //switch construct
-                switch (empInput)
-                {
-                    case IS_FULL_TIME:
-                        empHrs = 8;
-                        break;
-                    case IS_PART_TIME:
-                        empHrs = 4;
-                        break;
-                    default:
-                        empHrs = 0;
-                        break;
-                }
+                //Generating emphrs by using GetEmployeehrs Method
+                empHrs =GetEmployeeHrs(empInput);
                 //Formula for calulating total employee working hrs for a month
                 totalEmphrs += empHrs;
                 day++;
